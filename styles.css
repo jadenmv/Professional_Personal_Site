@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e5ffd7;
+    line-height: 133%;
+    font-size: 0.98em;
+    font-family: "Open Sans", "Droid Sans", "Calibri", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Calibri";
+    color: #244336;
+}
+
+p {
+    color: #244336;
+}
+
+a {
+    color: rgb(49, 89, 30);
+}
+
+a:hover, a:focus {
+    color: #253a43;
+    transition: ease-in 0.1s, ease-out 0.1s;
+}
+
+.header {
+    height: 150px;
+    background: linear-gradient(rgba(255, 246, 125, 0.152), rgba(180, 223, 199, 0.305)), url(../Professional_Personal_Site/assets/images/natfl009.jpg);
+    background-repeat: repeat;
+}
+
+.title {
+    background: #80c86e;
+    min-height: 60px;
+    margin-bottom: -25px;
+    text-align: left;
+    padding-left: 5em;
+}
+
+.title-text {
+    padding:0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 1em;
+    width: calc(85vw - 110px);
+    line-height: 167%;
+    margin-top: -3px;
+    padding-bottom: 15px;
+}
+
+.title-text h1 {
+    padding:0;
+    font-size: 32px;
+}
+
+.page-wrapper {
+    padding: 0 100px;
+    margin: 0 auto;
+    background: #e5ffd7;
+}
+
+/*sidebar boxes*/
+.sidebar {
+width: 320px;
+margin: 50px 0;
+position: absolute;
+}
+
+.sidebar h1 {
+font-size: 1.2rem;
+background: #80c86e;
+color: #fff;
+padding: 12px 10px 10px 10px;
+margin: auto;
+}
+
+.sidebar a {
+display: block;
+border-left: 3px solid #215729;
+background: #a0ce8a;
+padding: 5px;
+margin: 10px 0;
+color: #1c5039;
+text-decoration: none;
+}
+
+.sidebar a:hover, .sidebar a:focus {
+background: #d8f7a1;
+transition: ease-in 0.1s, ease-out 0.1s;
+}
+
+.sidebar, .main {
+display: inline-block;
+}
+
+.main {
+margin: 50px 100px 50px 350px;
+width: auto;
+width: calc(100vw - 550px);
+}
+
+
+.box {
+margin-bottom: 15px;
+}
+
+.inner {
+background:  #fefff6;
+padding: 10px 25px;
+}
